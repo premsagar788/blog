@@ -34,7 +34,7 @@
       <div class="row blog">
         <div class="col-md-12">
           <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
-            <h1 align="center" class="pb-2">Latest Posts</h1>
+            <h1 align="center" class="pb-5">Latest Posts</h1>
             <ol class="carousel-indicators">
               <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#blogCarousel" data-slide-to="1"></li>
@@ -137,7 +137,7 @@
         <div class="item-box-blog">
           <div class="item-box-blog-image">
             <!--Date-->
-            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+            <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
             <!--Image-->
             <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
         </div>
@@ -165,7 +165,7 @@
     <div class="item-box-blog">
       <div class="item-box-blog-image">
         <!--Date-->
-        <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+        <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
         <!--Image-->
         <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
     </div>
@@ -193,7 +193,7 @@
     <div class="item-box-blog">
       <div class="item-box-blog-image">
         <!--Date-->
-        <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu 01</span> </div>
+        <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Aug 01</span> </div>
         <!--Image-->
         <figure> <img alt="" src="https://cdn.pixabay.com/photo/2017/02/08/14/25/computer-2048983_960_720.jpg"> </figure>
     </div>
