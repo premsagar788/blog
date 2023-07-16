@@ -73,7 +73,7 @@
     </div>
 </section>
 
-<main class="py-4">
+<main class="bg-light">
     @yield('content')
 </main>
 
