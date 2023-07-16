@@ -30,10 +30,10 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavRight">
                     <ul class="navbar-nav">
                       <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
                     </li>
                     @guest
                     @if (Route::has('login'))
