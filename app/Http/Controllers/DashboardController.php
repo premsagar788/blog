@@ -60,4 +60,9 @@ class DashboardController extends Controller
         return redirect()->route('posts.index')
                         ->with('success','Post deleted successfully');
     }
+
+    public function profile()
+    {
+        return view('admin.profile');
+    }
 }
