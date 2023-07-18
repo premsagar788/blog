@@ -26,3 +26,5 @@ Route::get('/admin/dashboard', [App\Http\Controllers\DashboardController::class,
 Route::get('/admin/profile', [App\Http\Controllers\DashboardController::class, 'profile']);
 
 Route::get('/blog', [App\Http\Controllers\FrontendController::class, 'blog']);
+
+Route::get('/privacy-policy', [App\Http\Controllers\FrontendController::class, 'privacyPolicy']);

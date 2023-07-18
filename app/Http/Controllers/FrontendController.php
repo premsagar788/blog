@@ -12,4 +12,9 @@ class FrontendController extends Controller
         $posts = Post::all();
         return view('blog', compact('posts'));
     }
+
+    public function privacyPolicy()
+    {
+        return view('privacy-policy');
+    }
 }
