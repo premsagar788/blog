@@ -110,7 +110,7 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        Start Bootstrap
+                        {{ auth()->user()->name }}
                     </div>
                 </nav>
             </div>
@@ -121,7 +121,7 @@
                         <div class="d-flex align-items-center justify-content-between small">
                             <div class="text-muted">Copyright &copy; {{ config('app.name', 'Laravel') }} 2023</div>
                             <div>
-                                <a href="#">Privacy Policy</a>
+                                <a target="_blank" href="{{ url('/privacy-policy') }}">Privacy Policy</a>
                                 &middot;
                                 <a href="#">Terms &amp; Conditions</a>
                             </div>

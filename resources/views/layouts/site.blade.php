@@ -23,7 +23,7 @@
             <div class="container">
                 <nav class="navbar sticky-top navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        <img src="{{ asset('img/logo.svg') }}" alt="{{ config('app.name', 'Laravel') }}"> 
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavRight" aria-controls="navbarNavRight" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -82,8 +82,8 @@
         <div class="row row-30">
             <div class="col-md-4 col-xl-5">
                 <div class="pr-xl-4">
-                    <a class="brand" href="index.html">
-                        <img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x">
+                    <a class="brand pb-2" href="index.html">
+                        <img class="brand-logo-light" src="{{ asset('img/logo.svg') }}" alt="logo" width="50" height="50">
                     </a>
                     <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
                     <!-- Rights-->
@@ -97,26 +97,36 @@
                 <h5>Contacts</h5>
                 <dl class="contact-list">
                     <dt class="">Address:</dt>
-                    <dd>798 South Park Avenue, Jaipur, Raj</dd>
+                    <dd>3396 Collins Avenue, Canal Winchester, Ohio, US.</dd>
                 </dl>
                 <dl class="contact-list">
-                    <dt>email:</dt>
-                    <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
+                    <dt>Email:</dt>
+                    <dd><a href="mailto:info@blog.com">info@blog.com</a></dd>
                 </dl>
                 <dl class="contact-list">
-                    <dt>phones:</dt>
-                    <dd><a href="tel:#">https://karosearch.com</a>
+                    <dt>Phone:</dt>
+                    <dd><a href="tel:+1123345678">+1123345678</a>
                     </dd>
                 </dl>
             </div>
             <div class="col-md-4 col-xl-3">
               <h5>Links</h5>
               <ul class="nav-list">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li>
+                    <a href="{{ url('/about') }}">About</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li>
+                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
+                </li>
             </ul>
             </div>
         </div>
