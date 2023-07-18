@@ -138,3 +138,7 @@ figure img{width:300px;}
 .nav-list li a, .contact-list dd, .contact-list dd a {
   color: lightblue;
 }
+
+.t-justify {
+  text-align: justify;
+}
