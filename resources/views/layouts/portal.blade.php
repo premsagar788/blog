@@ -114,7 +114,7 @@
                             <div>
                                 <a target="_blank" href="{{ url('/privacy-policy') }}">Privacy Policy</a>
                                 &middot;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="#">Terms & Conditions</a>
                             </div>
                         </div>
                     </div>
