@@ -46,9 +46,7 @@ class DashboardController extends Controller
             'title' => 'required',
             'body' => 'required',
         ]);
-
         $post->update($request->all());
-
         return redirect()->route('posts.index')
                         ->with('success','Post updated successfully');
     }
