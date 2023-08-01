@@ -17,7 +17,6 @@
     </div>
   </div>
 
-  <!--Read More Button-->
 </div>
 
 
